@@ -1,4 +1,7 @@
 import React from "react";
+import Headers from "./headers.jsx";
+import Bodys from "./bodys.jsx";
+import Footers from "./footers.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -8,8 +11,7 @@ const Home = () => {
   return (
     <div className="text-center">
       <Headers />
-      <Jumbotrons />
-      <Cards />
+      <Bodys />
       <Footers />
     </div>
   );
