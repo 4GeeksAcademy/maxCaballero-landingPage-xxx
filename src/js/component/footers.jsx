@@ -2,8 +2,8 @@ import React from "react";
 
 function Footers() {
   return (
-    <footer>
-      <p>max chistian</p>
+    <footer className="foot d-flex justify-content-center align-item-center bg-dark">
+      <p className="texto text-white">max chistian</p>
     </footer>
   );
 }
