@@ -12,6 +12,22 @@ function Bodys() {
       notas:
         "vulnerabilities on 4GeeksAcademy/maxCaballero-landingPage-xxx's default branc",
     },
+    {
+      imgs: "f1",
+      altx: "veremos",
+      nombre: "Max",
+      cargo: "Oficinista",
+      notas:
+        "vulnerabilities on 4GeeksAcademy/maxCaballero-landingPage-xxx's default branc",
+    },
+    {
+      imgs: "f1",
+      altx: "veremos",
+      nombre: "Max",
+      cargo: "Oficinista",
+      notas:
+        "vulnerabilities on 4GeeksAcademy/maxCaballero-landingPage-xxx's default branc",
+    }
   ];
 
   return (

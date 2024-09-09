@@ -2,7 +2,7 @@ import React from "react";
 
 function Jumbotrons() {
   return (
-    <div className="col-md-10 m-auto bg-danger py-4">
+    <div className="col-md-10 m-auto py-4">
       <div className="jumbotron">
         <h1 className="display-4">Hello, world!</h1>
         <p className="lead">
