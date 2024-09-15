@@ -1,17 +1,23 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 
 const Contador = () => {
     const [contar, setContar] = useState(0);
-    const Incrementar = () => {
+    const Sumar = () => {
         setContar(contar + 1);
     };
-    return(
+    const Quitar = () => {
+        setContar(contar - 1);
+    };
+    return (
         <div>
+            
             <h5>
-                Conteo = {contar};
+                Conteo = {contar}
             </h5>
-            <btn>incrementar</btn>
+            <button onClick={Sumar}>Like</button>
+            <button onClick={Quitar}>No like</button>
         </div>
     )
-},export default Contador;
+}
+export default Contador;
